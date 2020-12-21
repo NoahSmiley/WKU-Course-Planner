@@ -1,0 +1,88 @@
+{% extends "SEAS_Course_Planner/base.html" %}
+{% load static %}
+{% block content %}
+<html>
+
+  <head>
+  	</div>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>GTCoding</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/dropdown.css' %}" />
+  </head>
+  <body>
+    <div class="container">
+
+    <h1>Create a New Pathway:</h1>
+
+      <h2>Degree Program:</h2>
+
+      <div class="select-box">
+        <div class="options-container">
+          <div class="option">
+            <input
+              type="Degree"
+              class="Degree"
+              id="automobiles"
+              name="category"
+            />
+          </div>
+
+          <div class="option">
+            <input type="Degree" class="Degree" id="AS" name="category" />
+            <label for="film">Architectural Science</label>
+          </div>
+
+          <div class="option">
+            <input type="Degree" class="Degree" id="ST" name="category" />
+            <label for="science">Science & Technology</label>
+          </div>
+
+          <div class="option">
+            <input type="Degree" class="Degree" id="CIV" name="category" />
+            <label for="art">Civil Engineering</label>
+          </div>
+
+          <div class="option">
+            <input type="Degree" class="Degree" id="CS" name="category" />
+            <label for="music">Computer Science</label>
+          </div>
+
+          <div class="option">
+            <input type="Degree" class="Degree" id="CM" name="category" />
+            <label for="travel">Construction Management</label>
+          </div>
+
+          <div class="option">
+            <input type="Degree" class="Degree" id="EE" name="category" />
+            <label for="sports">Electrical Engineering</label>
+          </div>
+
+          <div class="option">
+            <input type="Degree" class="Degree" id="ETM" name="category" />
+            <label for="news">Engineering Technology Management</label>
+          </div>
+
+          <div class="option">
+            <input type="Degree" class="Degree" id="MET" name="category" />
+            <label for="tutorials">Manufacturing Engineering Technology</label>
+          </div>
+
+          <div class="option">
+            <input type="Degree" class="Degree" id="ME" name="category" />
+            <label for="tutorials">Mechanical Engineering</label>
+          </div>
+        </div>
+
+        <div class="selected">
+          Select a Degree Program
+        </div>
+      </div>
+    </div>
+    
+    <script src="{% static 'js/dropdown.js' %}"></script>
+  </body>
+</html>
+{% endblock content %}
+

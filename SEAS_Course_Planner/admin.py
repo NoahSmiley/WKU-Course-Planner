@@ -1,0 +1,21 @@
+from django.contrib import admin
+from .models import Architectural_Science_Courses_Offered
+from .models import Civil_Engineering_Courses_Offered
+from .models import Computer_Information_Technology_Courses_Offered
+from .models import Computer_Science_Courses_Offered
+from .models import Construction_Management_Courses_Offered
+from .models import Electrical_Engineering_Courses_Offered
+from .models import Engineering_Technology_Management_Courses_Offered
+from .models import Manufacturing_Engineering_Technology_Courses_Offered
+from .models import Mechanical_Engineering_Courses_Offered
+
+# Register your models here.
+admin.site.register(Architectural_Science_Courses_Offered)
+admin.site.register(Civil_Engineering_Courses_Offered)
+admin.site.register(Computer_Information_Technology_Courses_Offered)
+admin.site.register(Computer_Science_Courses_Offered)
+admin.site.register(Construction_Management_Courses_Offered)
+admin.site.register(Electrical_Engineering_Courses_Offered)
+admin.site.register(Engineering_Technology_Management_Courses_Offered)
+admin.site.register(Manufacturing_Engineering_Technology_Courses_Offered)
+admin.site.register(Mechanical_Engineering_Courses_Offered)
